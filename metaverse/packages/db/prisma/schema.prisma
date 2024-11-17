@@ -49,7 +49,7 @@ model Element {
   width           Int
   height          Int
   static          Boolean
-  imageUrl        String
+  imageUrl        String 
   spaces            spaceElements[] //this means that every element can present in many spaces 
   mapElements       MapElements[]   //this means that every element can present in many maps 
 }
